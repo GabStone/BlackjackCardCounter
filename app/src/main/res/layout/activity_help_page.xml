@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/beigebg"
+    tools:context="com.oak.stone.blackjackcardcounter.HelpPage">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="How to use the Blackjack Card Counter"
+                android:id="@+id/textView5"
+                android:textSize="26dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:src="@drawable/acejack"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1) From the main page click on the &quot;Start Counting&quot; button"
+                android:id="@+id/textView30"
+                android:layout_alignBottom="@+id/scrollView2"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="2) Click on the amount of decks being used in your blackjack game"
+                android:id="@+id/textView31" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="3) For every card revealed, click on the appropriate button corresponding to its value "
+                android:id="@+id/textView32" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="- Ex: if a 2, 7 and 4 are delt, then you would click on the buttons &quot;2 - 6&quot; , &quot;7 - 9&quot; and &quot;2 - 4&quot; in that order"
+                android:id="@+id/textView33" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="4) Every time a card is delt and you press on its corresponding button on the screen, the running count, the true count and the amount of decks remaining are updated"
+                android:id="@+id/textView34" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="5) When the dealer is either out of cards or starts to shuffle the decks, press on the &quot;Shuffle Deck&quot; button"
+                android:id="@+id/textView35" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="6) The &quot;Hide&quot; button is used to hide the application from casino workers"
+                android:id="@+id/textView36" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

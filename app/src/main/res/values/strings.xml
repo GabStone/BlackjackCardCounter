@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Blackjack Card Counter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome_page">WelcomePage</string>
+    <string name="title_activity_couting_page">CoutingPage</string>
+    <string name="title_activity_how_to_page">HowToPage</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="title_activity_help_page">help_page</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6682971433930039/6216341105</string>
+</resources>
